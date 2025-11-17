@@ -1221,7 +1221,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #58d08e;
+    background: #7ccfd6;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2705,4 +2705,19 @@ header.header {
 .giscus {
   max-width: unset;
   box-sizing: border-box;
+}
+@@ -0 #busuanzi_container_page_pv,
+0  1 #busuanzi_container_page_pv,
+9 @@ #busuanzi_container_page_pv {
+  display: inline;
+}
+@@ -0 .busuanzi-count #busuanzi_container_site_uv,
+0  1 .busuanzi-count #busuanzi_container_site_uv,
+9 @@ .busuanzi-count #busuanzi_container_site_uv {
+  display: inline;
+}
+@@ -0 .busuanzi-count #busuanzi_container_site_pv,
+0  1 .busuanzi-count #busuanzi_container_site_pv,
+9 @@ .busuanzi-count #busuanzi_container_site_pv {
+  display: inline;
 }
